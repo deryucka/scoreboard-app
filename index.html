@@ -1,16 +1,21 @@
 <html>
   <head>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet" />
+    <title>Scoreboard App</title>
   </head>
   <body>
+    <header>
+      <h1>Scoreboard</h1>
+      <p>Simple score tracking app</p>
+    </header>
     <div class="container">
       <div class="score-section">
-        <h3>BODRUM SPOR</h3>
+        <h3>BODRUM FC</h3>
         <p id="home-count" class="score-count">0</p>
         <div class="count-btn">
           <button onclick="addOneH()">+1</button>
@@ -19,7 +24,7 @@
         </div>
       </div>
       <div class="score-section">
-        <h3>EKO SPOR</h3>
+        <h3>ISTANBUL FC</h3>
         <p id="guest-count" class="score-count">0</p>
         <div class="count-btn">
           <button onclick="addOneG()">+1</button>
