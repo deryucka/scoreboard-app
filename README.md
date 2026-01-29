@@ -4,7 +4,7 @@ A simple front-end project focused on clarity, user feedback, and basic interact
 
 ## Live Demo
 
-(Add GitHub Pages link here)
+https://deryucka.github.io/scoreboard-app/
 
 ## Overview
 
